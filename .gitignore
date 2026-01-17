@@ -1,0 +1,74 @@
+# ==============================================================================
+# .gitignore - Big Data Project (Kafka + Flink + Spark + HDFS + Hive)
+# ==============================================================================
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ------------------------------
+# OS / IDE / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.iml
+
+# ------------------------------
+# Docker / Compose (local runtime)
+# ------------------------------
+*.pid
+*.sock
+
+# ------------------------------
+# Big runtime / generated folders
+# ------------------------------
+hdfs-data/
+hadoop-data/
+spark-data/
+kafka-data/
+zookeeper-data/
+metastore_db/
+derby.log
+
+# ------------------------------
+# Large binaries / jars
+# ------------------------------
+jars/
+*.jar
+
+# ------------------------------
+# Outputs / Results
+# ------------------------------
+output/
+outputs/
+results/
+tmp/
+temp/
+
+# ------------------------------
+# Logs
+# ------------------------------
+logs/
+*.out
+*.err
