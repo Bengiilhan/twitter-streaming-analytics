@@ -69,10 +69,11 @@ Make sure you have:
 
 ---
 
-# ================================
-# RUN THE PROJECT (Makefile-based)
-# ================================
+## ================================
+## RUN THE PROJECT (Makefile-based)
+## ================================
 
+```bash
 # 1) Go to the project folder
 cd twitter_project
 
@@ -103,7 +104,6 @@ make batch-query
 
 # 10) Stop the system
 make down
-
 ## Author
 
 Bengi İlhan
