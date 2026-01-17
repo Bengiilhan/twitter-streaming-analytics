@@ -34,7 +34,7 @@ This project focuses on:
 ---
 
 ## Repository Structure
-
+```
 twitter_project/
 │── docker-compose.yml
 │── Makefile
@@ -53,7 +53,7 @@ twitter_project/
 │ └── (optional input files / samples)
 │
 └── README.md
-
+```
 >  Note: Folders like `hdfs-data/`, large `.jar` files are **not included** in GitHub because they are runtime-generated or too large.  
 
 
@@ -104,6 +104,7 @@ make batch-query
 
 # 10) Stop the system
 make down
+```
 ## Author
 
 Bengi İlhan
